@@ -2,6 +2,7 @@ import  sys
 import string
 
 def letter_punctuation(estr):
+    """Function for count puntuation"""
     count = 0
     for i in estr:
         if i in string.punctuation:
@@ -9,6 +10,7 @@ def letter_punctuation(estr):
     return count
 
 def letter_digit(estr):
+    """Function for count digit"""
     count = 0
     for i in estr:
         if i.isdigit():
@@ -16,6 +18,7 @@ def letter_digit(estr):
     return count
 
 def letter_space(estr):
+    """Function for count space"""
     count = 0
     for i in estr:
         if i.isspace():
@@ -23,6 +26,7 @@ def letter_space(estr):
     return count
 
 def letter_min(estr):
+    """Function for count lowercase"""
     count = 0
     for i in estr:
         if i.islower():
@@ -30,6 +34,7 @@ def letter_min(estr):
     return count
 
 def letter_maj(estr):
+    """Function for count upper case"""
     count = 0
     for i in estr:
         if i.isupper():
@@ -37,9 +42,11 @@ def letter_maj(estr):
     return count
 
 def nbr_letter(estr):
+    """Function for count character"""
     return len(estr)
 
 def main():
+    """Le main"""
     if len(sys.argv) > 2:
         print("AssertionError: more than one argument is provided")
     elif len(sys.argv) == 2:
