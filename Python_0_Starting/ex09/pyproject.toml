@@ -1,0 +1,10 @@
+[project]
+name = "ft_package"
+version = "0.0.1"
+description = "Transform a string into morse code"
+url = "https://github.com/Mounas-Ali/Python-for-data-science/tree/main/Python_0_Starting/ex09"
+license = "MIT"
+
+[author]
+name = "Mounas"
+email = "mounali@student.42perpignan.fr"

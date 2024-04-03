@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ft_package
+Version: 0.0.1
+Summary: transform a string into morse code
+Home-page: https://github.com/Mounas-Ali/Python-for-data-science/tree/main/Python_0_Starting/ex09
+Author: Mounas
+Author-email: mounali@student.42perpignan.fr
+License: MIT
+Classifier: Programming Language :: Python :: 3
